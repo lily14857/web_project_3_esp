@@ -1,7 +1,75 @@
-body {
-  background-color: black;
+@font-face {
+  font-family: "Inter";
+  src: url(../fonts/Inter-Regular.woff2) format("woff");
 }
 
-h1 {
+body {
+  background-color: #2a2c2f;
+}
+
+.page {
+  min-width: 320px;
+}
+
+.logo_place_header {
+  width: 200px;
+  height: 51.85px;
+  padding-top: 20px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header__title {
   color: white;
+  font-family: Inter;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .header__title {
+    font-size: 96px;
+  }
+
+  @media (min-width: 1280px) {
+    .header__title {
+      font-size: 96px;
+    }
+  }
+}
+
+.header__subtitle {
+  color: white;
+  font-family: Inter;
+  text-align: center;
+}
+
+.header__main-illustration {
+  width: 320px;
+  height: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .header__subtitle {
+    font-size: 30px;
+  }
+
+  .header__main-illustration {
+    width: 768px;
+    height: 480px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header__subtitle {
+    font-size: 30px;
+  }
+
+  .header__main-illustration {
+    width: 984px;
+    height: 615px;
+  }
 }
