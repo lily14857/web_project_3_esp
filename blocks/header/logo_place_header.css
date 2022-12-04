@@ -10,10 +10,3 @@
     height: 70px;
   }
 }
-
-@media screen and (min-width: 1280px) {
-  .logo_place_header {
-    width: 270px;
-    height: 70px;
-  }
-}
