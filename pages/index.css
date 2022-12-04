@@ -7,6 +7,13 @@
 @import url(../blocks/header/__subtitle/header__subtitle.css);
 @import url(../blocks/header/__main-illustration/header__main-illustration.css);
 
+@import url(../blocks/description/description.css);
+@import url(../blocks/description/column/column.css);
+@import url(../blocks/description/column/__title/column__title.css);
+@import url(../blocks/description/column/__quote/column__quote.css);
+@import url(../blocks/description/column/__quote-author/column__quote-author.css);
+@import url(../blocks/description/column/__paragraph/column__paragraph.css);
+
 h1,
 h2,
 h3,
