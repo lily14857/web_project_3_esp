@@ -1,7 +1,25 @@
-body {
-  background-color: black;
+@import url(../vendor/normalize.css);
+@import url(../fonts/fonts.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/logo_place_header.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__subtitle/header__subtitle.css);
+@import url(../blocks/header/__main-illustration/header__main-illustration.css);
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
 }
 
-h1 {
-  color: white;
+body {
+  background-color: #2a2c2f;
+}
+
+.page {
+  min-width: 320px;
 }
