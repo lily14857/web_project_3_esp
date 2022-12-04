@@ -1,21 +1,20 @@
 .column__paragraph {
   color: #ffffff;
-  font-family: "Inter";
+  font-family: Inter;
   font-weight: 400;
   font-size: 16px;
-  line-height: 163%;
+  line-height: 26px;
   margin: 0 16px 38px;
 }
 
 @media screen and (min-width: 768px) {
   .column__paragraph {
-    line-height: 26.08px;
     margin: 32px 24px 64px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .column__paragraph {
-    margin: 32 410px 92 148px;
+    margin: 32px 410px 92px 148px;
   }
 }
