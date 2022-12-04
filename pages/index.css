@@ -1,6 +1,28 @@
+@import url(../vendor/normalize.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/logo_place_header.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__subtitle/header__subtitle.css);
+@import url(../blocks/header/__main-illustration/header__main-illustration.css);
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+}
+
 @font-face {
   font-family: "Inter";
   src: url(../fonts/Inter-Regular.woff2) format("woff");
+}
+
+@font-face {
+  font-family: "InterBold";
+  src: url(../fonts/Inter-Black.woff2) format("woff");
 }
 
 body {
@@ -9,67 +31,4 @@ body {
 
 .page {
   min-width: 320px;
-}
-
-.logo_place_header {
-  width: 200px;
-  height: 51.85px;
-  padding-top: 20px;
-}
-
-.header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.header__title {
-  color: white;
-  font-family: Inter;
-  text-align: center;
-}
-
-@media (min-width: 768px) {
-  .header__title {
-    font-size: 96px;
-  }
-
-  @media (min-width: 1280px) {
-    .header__title {
-      font-size: 96px;
-    }
-  }
-}
-
-.header__subtitle {
-  color: white;
-  font-family: Inter;
-  text-align: center;
-}
-
-.header__main-illustration {
-  width: 320px;
-  height: 200px;
-}
-
-@media screen and (min-width: 768px) {
-  .header__subtitle {
-    font-size: 30px;
-  }
-
-  .header__main-illustration {
-    width: 768px;
-    height: 480px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .header__subtitle {
-    font-size: 30px;
-  }
-
-  .header__main-illustration {
-    width: 984px;
-    height: 615px;
-  }
 }
