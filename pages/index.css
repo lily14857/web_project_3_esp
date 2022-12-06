@@ -16,7 +16,7 @@
 
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/cards/__images/cards__images.css);
-@import url(../blocks/cards/__image/cards__image.css);
+@import url(../blocks/cards/__image/card__image.css);
 
 h1,
 h2,
@@ -35,4 +35,71 @@ body {
   min-width: 320px;
   max-width: 1280px;
   margin: 0 auto;
+}
+
+.place__location {
+  margin-top: 50px;
+  color: #ffffff;
+  font-family: "InterBold";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 35px;
+  padding-left: 16px;
+}
+
+.place__artist {
+  color: #aaaaaa;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin: 30px 16px 8px;
+}
+
+.place__artist-role {
+  color: #ffffff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0 16px 30px;
+}
+
+.place__image {
+  width: 320px;
+  height: 320px;
+}
+
+.place__description {
+  color: #ffffff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  padding: 0 16px 7px;
+}
+.button-container {
+  padding: 0 16px;
+}
+
+.button {
+  width: 100%;
+  min-width: 288px;
+  max-width: 355px;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 4px;
+  padding: 16px 0 15px;
+  display: inline-block;
+  background: #0278fe;
 }
