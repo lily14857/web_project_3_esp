@@ -1,0 +1,4 @@
+.cards {
+  display: grid;
+  place-content: center;
+}

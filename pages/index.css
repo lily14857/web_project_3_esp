@@ -14,6 +14,10 @@
 @import url(../blocks/description/column/__quote-author/column__quote-author.css);
 @import url(../blocks/description/column/__paragraph/column__paragraph.css);
 
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/__images/cards__images.css);
+@import url(../blocks/cards/__image/cards__image.css);
+
 h1,
 h2,
 h3,
@@ -29,4 +33,6 @@ body {
 
 .page {
   min-width: 320px;
+  max-width: 1280px;
+  margin: 0 auto;
 }
