@@ -1,0 +1,27 @@
+.place-grid {
+  margin: auto;
+  max-width: 987px;
+  display: grid;
+
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: "location" "artist" "image" "descriptions" "button";
+}
+
+@media screen and (min-width: 321px) {
+  .place-grid {
+    justify-items: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .place-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr auto;
+    grid-template-areas:
+      "location artist"
+      "image descriptions"
+      "button descriptions"
+      ". descriptions";
+  }
+}

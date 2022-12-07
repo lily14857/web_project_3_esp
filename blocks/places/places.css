@@ -1,0 +1,15 @@
+.places {
+}
+
+@media screen and (min-width: 768px) {
+  .places {
+    margin-top: 88px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .places {
+    margin: 92px auto;
+    max-width: 987px;
+  }
+}

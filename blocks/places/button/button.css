@@ -1,5 +1,5 @@
 .button {
-  width: 100%;
+  /* width: 100%; */
   min-width: 288px;
   max-width: 355px;
   color: #ffffff;
@@ -12,4 +12,12 @@
   padding: 16px 0 15px;
   display: inline-block;
   background: #0278fe;
+}
+
+@media screen and (min-width: 768px) {
+  .button {
+    margin-top: 48px;
+    font-size: 18px;
+    padding: 13px 20px;
+  }
 }
