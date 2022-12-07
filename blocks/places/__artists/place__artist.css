@@ -1,0 +1,16 @@
+.place__artist {
+  color: #aaaaaa;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin: 30px 16px 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .place__artist {
+  }
+}
