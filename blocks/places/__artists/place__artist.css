@@ -1,0 +1,19 @@
+.place__artist {
+  color: #aaaaaa;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin: 30px 16px 8px;
+  grid-area: artist;
+}
+
+@media screen and (min-width: 1280px) {
+  .place__artist {
+    margin: 30px 0 8px;
+    padding-left: 40px;
+  }
+}

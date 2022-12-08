@@ -1,0 +1,16 @@
+.place__artist-role {
+  color: #ffffff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  padding: 0 16px 30px;
+}
+
+@media screen and (min-width: 1280px) {
+  .place__artist-role {
+    margin: 0;
+    padding-left: 40px;
+  }
+}

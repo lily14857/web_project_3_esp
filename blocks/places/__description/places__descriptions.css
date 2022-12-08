@@ -1,0 +1,10 @@
+.places__descriptions {
+  grid-area: descriptions;
+  align-self: center;
+}
+@media screen and (min-width: 1280px) {
+  .places__descriptions {
+    display: grid;
+    gap: 25px;
+  }
+}

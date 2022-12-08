@@ -1,0 +1,27 @@
+.button {
+  min-width: 288px;
+  max-width: 355px;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 4px;
+  padding: 16px 0 15px;
+  display: inline-block;
+  background: #0278fe;
+}
+
+.button:hover {
+  background: #0063d2;
+  transition: background 300ms ease;
+}
+
+@media screen and (min-width: 768px) {
+  .button {
+    margin-top: 48px;
+    font-size: 18px;
+    padding: 13px 20px;
+  }
+}
