@@ -1,0 +1,15 @@
+.footer__subtitle {
+  color: #ffffff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__subtitle {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}

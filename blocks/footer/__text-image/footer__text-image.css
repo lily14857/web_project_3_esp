@@ -1,0 +1,17 @@
+.footer__text-image {
+  height: 254px;
+  margin: 64px 0 64px;
+  max-width: 1184px;
+  margin: 0 auto;
+  position: relative;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__text-image {
+    height: 746px;
+  }
+}
+
+.footer__text-image:hover .footer__text-image__background {
+  opacity: 0.25;
+}
