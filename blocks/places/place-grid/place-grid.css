@@ -2,7 +2,6 @@
   margin: auto;
   max-width: 987px;
   display: grid;
-
   grid-template-columns: 1fr;
   grid-template-rows: auto;
   grid-template-areas: "location" "artist" "image" "descriptions" "button";
