@@ -30,6 +30,14 @@
 @import url(../blocks/places/places-artists/places-artists.css);
 @import url(../blocks/places/place-grid/place-grid.css);
 
+@import url(../blocks/footer/__author/footer__author.css);
+@import url(../blocks/footer/__button/footer__button.css);
+@import url(../blocks/footer/__subtitle/footer__subtitle.css);
+@import url(../blocks/footer/__text-image/footer__text-image.css);
+@import url(../blocks/footer/__text-image__background/footer__text-image__background.css);
+@import url(../blocks/footer/__text-image__foreground/footer__text-image__foreground.css);
+@import url(../blocks/footer/__title/footer__title.css);
+
 h1,
 h2,
 h3,
@@ -47,86 +55,4 @@ body {
   min-width: 320px;
   max-width: 1280px;
   margin: 0 auto;
-}
-
-.footer {
-  /* display: grid;
-  place-content: center; */
-}
-
-.footer__text-image {
-  background-image: url(../images/__background__background.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  /* width: 320px; */
-  height: 254px;
-  margin: 64px 0 64px;
-  display: flex;
-  flex-direction: column;
-  place-content: center;
-  gap: 16px;
-  max-width: 1184px;
-  margin: 0 auto;
-}
-
-.footer__text-image:hover {
-  filter: opacity(25%);
-}
-
-@media screen and (min-width: 768px) {
-  .footer__text-image {
-    height: 746px;
-    gap: 32px;
-  }
-}
-
-.footer__title {
-  color: #ffffff;
-  font-family: "InterBold";
-  font-size: 32px;
-  line-height: 35px;
-  text-align: center;
-}
-
-@media screen and (min-width: 768px) {
-  .footer__title {
-    font-size: 72px;
-    line-height: 76px;
-  }
-}
-
-.footer__subtitle {
-  color: #ffffff;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  text-align: center;
-}
-
-@media screen and (min-width: 768px) {
-  .footer__subtitle {
-    font-size: 18px;
-    line-height: 22px;
-  }
-}
-
-.footer__author {
-  color: #ffffff;
-  font-family: "Inter";
-  font-size: 14px;
-  line-height: 14px;
-  text-align: center;
-  padding-bottom: 24px;
-}
-
-@media screen and (min-width: 1280px) {
-  .footer__author {
-    margin-top: 92px;
-  }
-}
-
-.footer__button {
-  margin: 0;
 }
