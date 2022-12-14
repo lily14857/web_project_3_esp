@@ -1,4 +1,4 @@
-.place__artist {
+.places__artist {
   color: #aaaaaa;
   font-family: "Inter";
   font-style: normal;
@@ -12,7 +12,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .place__artist {
+  .places__artist {
     margin: 30px 0 8px;
     padding-left: 40px;
   }

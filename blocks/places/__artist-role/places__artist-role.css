@@ -1,4 +1,4 @@
-.place__artist-role {
+.places__artist-role {
   color: #ffffff;
   font-family: "Inter";
   font-style: normal;
@@ -9,7 +9,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .place__artist-role {
+  .places__artist-role {
     margin: 0;
     padding-left: 40px;
   }
