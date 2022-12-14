@@ -1,17 +1,17 @@
-.card__image {
+.cards__image {
   width: 288px;
   height: 216px;
 }
 
 @media screen and (min-width: 768px) {
-  .card__image {
+  .cards__image {
     width: 352px;
     height: 264px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .card__image {
+  .cards__image {
     width: 284px;
     height: 213px;
   }
