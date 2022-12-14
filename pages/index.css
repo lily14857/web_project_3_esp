@@ -35,8 +35,8 @@
 @import url(../blocks/footer/__button/footer__button.css);
 @import url(../blocks/footer/__subtitle/footer__subtitle.css);
 @import url(../blocks/footer/__text-image/footer__text-image.css);
-@import url(../blocks/footer/__text-image__background/footer__text-image__background.css);
-@import url(../blocks/footer/__text-image__foreground/footer__text-image__foreground.css);
+@import url(../blocks/footer/__text-image-background/footer__text-image-background.css);
+@import url(../blocks/footer/__text-image-foreground/footer__text-image-foreground.css);
 @import url(../blocks/footer/__title/footer__title.css);
 
 h1,

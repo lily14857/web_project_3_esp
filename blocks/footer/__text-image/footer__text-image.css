@@ -1,6 +1,6 @@
 .footer__text-image {
   height: 254px;
-  margin: 64px 0 64px;
+  margin: 64px auto 64px;
   max-width: 1184px;
   position: relative;
 }
@@ -11,6 +11,6 @@
   }
 }
 
-.footer__text-image:hover .footer__text-image__background {
+.footer__text-image:hover .footer__text-image-background {
   opacity: 0.25;
 }

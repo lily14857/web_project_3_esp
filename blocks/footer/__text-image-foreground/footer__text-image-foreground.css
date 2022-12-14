@@ -1,4 +1,4 @@
-.footer__text-image__foreground {
+.footer__text-image-foreground {
   height: 100%;
   width: 100%;
   display: flex;
@@ -10,7 +10,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .footer__text-image__foreground {
+  .footer__text-image-foreground {
     gap: 32px;
   }
 }
